@@ -1,0 +1,106 @@
+body {
+  font-family: "source-sans-pro", sans-serif;
+  font-weight: 200;
+}
+ul {list-style: none;
+}
+  li {
+  display: inline;
+  margin-right: 10px;
+  font-family: Source Sans Pro;
+font-size: 12px;
+font-weight: 700;
+line-height: 15.08px;
+text-align: left;
+color:#FFFFFF;
+}
+main{width: 1440px;
+height: 1093px;
+gap: 0px;
+opacity: 0px;
+}
+h1{font-family: Source Sans Pro;
+font-size: 120px;
+font-weight: 700;
+line-height: 150.84px;
+text-align: center;
+width: 684px;
+height: 151px;
+top: 220px;
+left: 377px;
+margin-left: 320px;
+padding-top: 100px;
+padding-bottom: 0px;
+}
+button{display: block;
+  margin: 0 auto;
+border: 2px solid #c271ff;
+  border-radius: 25px;
+  padding: 10px 20px;
+  background-color: #c271ff;
+  font-size: 600;
+}
+.image_background {
+  background-image: url("/Users/Pamela/alx_html_css/images/Object.png");
+  }
+#mainContent, #sideContent {float:left; display:inline; width:40%;}
+#sideContent{text-align: right; margin-right: auto;
+    word-spacing: 20px;
+}
+#course{width: 50px;
+height: 15px;
+gap: 0px;
+opacity: 0px;
+}
+#pricing{width: 45px;
+height: 15px;
+left: 102px;
+gap: 0px;
+opacity: 0px;
+}
+#login{width: 34px;
+height: 15px;
+left: 200px;
+gap: 0px;
+opacity: 0px;
+}
+.logo{width: 167.02px;
+height: 29.46px;
+top: 35.02px;
+left: 171.59px;
+gap: 0px;
+opacity: 0px;
+}
+.emotions{text-align: center;
+font-family: Source Sans Pro;
+font-size: 16px;
+font-weight: 700;
+line-height: 20.11px;
+    word-spacing: 50px;
+padding-bottom: 50px;
+margin-top: 50px;}
+.smiles{width: 52px;
+height: 20px;
+top: 361px;
+left: 593px;
+}
+.grin{width: 36px;
+height: 20px;
+top: 361px;
+left: 704px;
+}
+.laugh{width: 49px;
+height: 20px;
+top: 361px;
+left: 797px;
+}
+.learn{
+font-size: 32px;
+font-weight: 700;
+line-height: 40.22px;
+text-align: center;
+padding-top: 60px;
+font-weight: lighter;
+}
+.learning{font-weight: 700;
+color: #c271ff;}
