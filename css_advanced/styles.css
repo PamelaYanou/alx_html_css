@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
   font-family: "source-sans-pro", sans-serif;
   font-weight: 200;
@@ -31,6 +37,7 @@ left: 377px;
 margin-left: 320px;
 padding-top: 100px;
 padding-bottom: 0px;
+color: #FFFFFF;
 }
 button{display: block;
   margin: 0 auto;
@@ -41,59 +48,73 @@ border: 2px solid #c271ff;
   font-size: 600;
   color: #FFFFFF;
 }
+a{text-decoration: none;
+color: #FFFFFF;}
 .image_background {
-  background-image: url("/Users/Pamela/alx_html_css/images/Object.png");
+ background-image: url("./images/Object.png");
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ 
   }
 #mainContent, #sideContent {float:left; display:inline; width:40%;}
 #sideContent{text-align: right; margin-right: auto;
     word-spacing: 20px;
+    color: #FFFFFF;
 }
 #course{width: 50px;
 height: 15px;
-gap: 0px;
-opacity: 0px;
+
 }
 #pricing{width: 45px;
 height: 15px;
 left: 102px;
-gap: 0px;
-opacity: 0px;
+
+
 }
 #login{width: 34px;
 height: 15px;
 left: 200px;
-gap: 0px;
-opacity: 0px;
+
+
 }
 .logo{width: 167.02px;
 height: 29.46px;
 top: 35.02px;
 left: 171.59px;
-gap: 0px;
-opacity: 0px;
+
 }
 .emotions{text-align: center;
 font-family: Source Sans Pro;
 font-size: 16px;
 font-weight: 700;
 line-height: 20.11px;
-    word-spacing: 50px;
-padding-bottom: 50px;
-margin-top: 50px;}
+word-spacing: 50px;
+padding:120px;
+color: #FFFFFF;
+margin-bottom: 10px;
+margin-top: 10px;
+}
 .smiles{width: 52px;
 height: 20px;
 top: 361px;
 left: 593px;
+color: #FFFFFF;
+
 }
 .grin{width: 36px;
 height: 20px;
 top: 361px;
 left: 704px;
+color: #FFFFFF;
+
 }
 .laugh{width: 49px;
 height: 20px;
 top: 361px;
 left: 797px;
+color: #FFFFFF;
+
 }
 .learn{
 font-size: 32px;
@@ -102,6 +123,7 @@ line-height: 40.22px;
 text-align: center;
 padding-top: 60px;
 font-weight: lighter;
+margin-bottom: 150px;
 }
 .learning{font-weight: 700;
 color: #c271ff;}
@@ -114,6 +136,7 @@ font-size: 18px;
 font-weight: 900;
 line-height: 27px;
 text-align:center;
+color: #FFFFFF;
 }
 .year, .wish{
 font-size: 16px;
@@ -122,6 +145,7 @@ font-weight: 400;
 line-height: 24px;
 text-align: center;
 width: 150px;
+color: #FFFFFF;
 }
 #testimonial{background-color: #c271ff;
     width: 1440px;
@@ -302,6 +326,10 @@ left: 672px;
 opacity: 0.35px;
 margin: 0 auto;
 padding-top: 150px;
+}
+.smile_pics{width: 255px;
+height: 154px;
+border-radius: 5px 5px 0px 0px;
 }
  
  
