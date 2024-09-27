@@ -224,10 +224,83 @@ line-height: 40.22px;
 text-align: center;
 padding-top: 30px;
 }
-.free{color: #c271ff;}
+.free{color: #c271ff;
+}
 .ipsum{
 font-size: 18px;
 font-weight: 600;
 line-height: 26px;
 text-align: center;
+width: 256px;
+height: 26px;
+top: 62px;
+ left: 0.5px;}
+ .lorem_ipsum{
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+width: 221px;
+height: 52px;
+top: 101px;
+left: 18px;
 }
+.click{margin: 70px auto;
+}
+.faq{color: #071629;
+font-size: 60px;
+font-weight: 300;
+line-height: 75.42px;
+text-align: center;
+}
+.work{
+font-size: 16px;
+font-weight: 700;
+line-height: 20.11px;
+text-align: left;
+width: 145px;
+height: 20px;
+color: #071629;
+}
+.work_details{color:rgba(7, 22, 41, 0.5);
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+width: 350px;
+height: 192px;
+top: 50px;
+}
+.grid{display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows:repeat(2, 1fr);
+gap: 60px;  
+width: 920px;
+height: 707px;
+top: 2678px;
+left: 249px;
+justify-content: center;
+ align-content: center; 
+padding-left: 300px;
+}
+footer{background-color: #071629;
+width: 1440px;
+height: 249px;
+top: 3469px;
+gap: 0px;
+opacity: 0px;
+}
+.copyright{color: #FFFFFF;
+font-size: 12px;
+font-weight: 400;
+line-height: 15.08px;
+text-align: left;
+width: 96px;
+height: 15px;
+top: 195px;
+left: 672px;
+opacity: 0.35px;
+margin: 0 auto;
+}
+ 
+ 
