@@ -7,6 +7,7 @@
 body {
   font-family: "source-sans-pro", sans-serif;
   font-weight: 200;
+  overflow-x: hidden;
 }
 ul {list-style: none;
 }
@@ -58,7 +59,8 @@ color: #FFFFFF;}
  
   }
 #mainContent, #sideContent {float:left; display:inline; width:40%;}
-#sideContent{text-align: right; margin-right: auto;
+#sideContent{text-align: right; margin-right: 90px;
+margin-top: 40px;
     word-spacing: 20px;
     color: #FFFFFF;
 }
@@ -121,9 +123,10 @@ font-size: 32px;
 font-weight: 700;
 line-height: 40.22px;
 text-align: center;
-padding-top: 60px;
+padding-top: 120px;
 font-weight: lighter;
-margin-bottom: 150px;
+margin-bottom: 100px;
+margin-left: 90px;
 }
 .learning{font-weight: 700;
 color: #c271ff;}
@@ -155,6 +158,8 @@ left: -1px;
 display: flex;
 justify-content: center;
 }
+.presenter{margin-top: 70px;
+margin-right: 30px;}
 .person_quote{
 font-size: 22px;
 font-weight: 400;
@@ -163,6 +168,7 @@ text-align: left;
 color: #FFFFFF;
 width: 730px;
 height: 68px;
+margin-top: 90px;
 }
 .person_name{
 font-size: 22px;
@@ -187,6 +193,8 @@ font-size: 32px;
 font-weight: 300;
 line-height: 40.22px;
 text-align: center;
+margin-top: 50px;
+margin-bottom: 80px;
 }
 .popular{color: #c271ff;
 font-size: 32px;
@@ -203,6 +211,7 @@ font-weight: 700;
 line-height: 20.11px;
 text-align: left;
 }
+.smile_border{margin-left:90px;}
 .lorem{color: rgba(7, 22, 41, 0.5);
 font-size: 14px;
 font-weight: 400;
@@ -221,6 +230,8 @@ text-align: left;
 height: 27px;
 top: 263px;
 color: #c271ff;
+padding-left: 45px;
+margin-top: -35px;
 }
 .minute{
 font-size: 14px;
@@ -228,10 +239,13 @@ font-weight: 600;
 line-height: 27px;
 text-align: right;
 color: #c271ff;
-width: 34px;
+width: 44px;
 height: 27px;
 top: 297px;
 left: 199px;
+margin-left: 150px;
+margin-top: -23px;
+margin-bottom: 50px;
 }
 .free_membership{width: 1440px;
 height: 502px;
@@ -247,7 +261,11 @@ font-weight: 700;
 line-height: 40.22px;
 text-align: center;
 padding-top: 30px;
+margin-bottom: 70px;
 }
+.smile_logo{margin-bottom: 20px;
+margin-left: 90px;}
+
 .free{color: #c271ff;
 }
 .ipsum{
@@ -276,15 +294,18 @@ font-size: 60px;
 font-weight: 300;
 line-height: 75.42px;
 text-align: center;
+margin-bottom: 50px;
+margin-top: 50px;
 }
 .work{
 font-size: 16px;
 font-weight: 700;
 line-height: 20.11px;
 text-align: left;
-width: 145px;
+width: 150px;
 height: 20px;
 color: #071629;
+margin-bottom: 20px;
 }
 .work_details{color:rgba(7, 22, 41, 0.5);
 font-size: 14px;
@@ -294,6 +315,8 @@ text-align: left;
 width: 350px;
 height: 192px;
 top: 50px;
+margin-bottom: 30px;
+
 }
 .grid{display: grid;
 grid-template-columns: repeat(2, 1fr);
@@ -305,14 +328,12 @@ top: 2678px;
 left: 249px;
 justify-content: center;
  align-content: center; 
-padding-left: 300px;
+padding-left: 370px;
 }
 footer{background-color: #071629;
 width: 1440px;
-height: 249px;
+height: 309px;
 top: 3469px;
-gap: 0px;
-opacity: 0px;
 }
 .copyright{color: #FFFFFF;
 font-size: 12px;
@@ -326,10 +347,54 @@ left: 672px;
 opacity: 0.35px;
 margin: 0 auto;
 padding-top: 150px;
+padding-bottom: 150px;
 }
 .smile_pics{width: 255px;
-height: 154px;
+height: auto;
 border-radius: 5px 5px 0px 0px;
+margin-right: 30px;
+
 }
- 
- 
+.play{position: absolute;
+margin-right: 50px;
+}
+.smile_border{width: 1228px;
+height: 450px;
+top: 1572px;
+left: 106px;
+gap: 0px;
+opacity: 0px;
+}
+ .Massey{width: 30px;
+height: 30px;
+top: 261px;
+left: 13px;
+}
+.star{width: 107px;
+height: 15px;
+top: 305px;
+left: 13px;
+margin-top: 20px;
+}
+.logo{
+margin-left: 120px;
+margin-top: 40px;}
+ #bruce{border-radius: 50%;}
+ .play_1{
+position: absolute;
+top:1690px;
+left: 170px; 
+}
+.play_2{
+position: absolute;
+top:1690px;
+left: 450px;
+}
+.play_3{
+position: absolute;
+top:1690px;
+left: 750px;
+}
+.play_4{position: absolute;
+top:1690px;
+left: 1050px;}
