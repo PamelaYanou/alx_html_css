@@ -210,6 +210,8 @@ font-size: 16px;
 font-weight: 700;
 line-height: 20.11px;
 text-align: left;
+margin-top: 20px;
+margin-bottom: 10px;
 }
 .smile_border{margin-left:90px;}
 .lorem{color: rgba(7, 22, 41, 0.5);
@@ -221,6 +223,7 @@ width: 242px;
 height: 48px;
 top: 199.6px;
 left: 13px;
+margin-bottom: 10px;
 }
 .phillip{
 font-size: 14px;
@@ -321,9 +324,9 @@ margin-bottom: 30px;
 .grid{display: grid;
 grid-template-columns: repeat(2, 1fr);
 grid-template-rows:repeat(2, 1fr);
-gap: 60px;  
+gap: 140px;  
 width: 920px;
-height: 707px;
+height: 900px;
 top: 2678px;
 left: 249px;
 justify-content: center;
@@ -332,7 +335,6 @@ padding-left: 370px;
 }
 footer{background-color: #071629;
 width: 1440px;
-height: 309px;
 top: 3469px;
 }
 .copyright{color: #FFFFFF;
@@ -346,8 +348,8 @@ top: 195px;
 left: 672px;
 opacity: 0.35px;
 margin: 0 auto;
-padding-top: 150px;
-padding-bottom: 150px;
+margin-top: 100px;
+padding-bottom: 50px;
 }
 .smile_pics{width: 255px;
 height: auto;
@@ -398,3 +400,6 @@ left: 750px;
 .play_4{position: absolute;
 top:1690px;
 left: 1050px;}
+#footer_logo{margin-top: 160px; }
+.icons{margin-left: 1030px;
+}
