@@ -21,6 +21,14 @@ font-weight: 700;
 line-height: 20.11px;
 color: white;
 }
+h2{
+font-size: 32px;
+line-height: 37.5px;
+text-align: center;
+color: #071629;
+margin-top: 90px;
+
+}
 button{padding: 10px 20px;
 background-color:  #FF6565;
 border: #FF6565;
@@ -69,3 +77,28 @@ opacity: 0px;
 padding-left: 380px;
 color: white;
 }
+.what_we_do{width: 1400px;
+height: 800px;
+gap: 0px;
+opacity: 0px;
+}
+.do{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+color: #071629;
+width: 637px;
+height: 104px;
+top: 80px;
+gap: 0px;
+opacity: 0px;
+padding-left: 380px;
+margin-bottom: 90px;
+}
+.images{ display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+    padding: 40px;
+}
+.icon{margin-right: 50px;}
