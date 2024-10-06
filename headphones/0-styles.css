@@ -26,6 +26,8 @@ background-color:  #FF6565;
 border: #FF6565;
 height: 44px;
 border-radius: 22px;
+color: white;
+box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.5);;
 }
 .logo_headphones{width: 114.12px;
 height: 12.06px;
@@ -38,7 +40,11 @@ display: flex;
 column-gap: 40px;
 justify-content: right;
 }
-
+li:hover {
+   color: #FF6565;
+ cursor:default;
+}
+button:hover{cursor: pointer;}
 .background_image{width: 1400px;
 height: 800px;
 gap: 0px;
